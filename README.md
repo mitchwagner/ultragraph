@@ -11,9 +11,9 @@ Put briefly, it takes the conventional view of data structures a static
 collections of data associated with a common set of operations. However, the
 scope of that set of operations is severely circumscribed here. For example, in
 the case of a standard, undirected graph, we specify a graph *G*=(*V*, *E*),
-where *V* is a set of nodes, and *E* is a set of edges, each edge e=(u, v)
-consisting of a pair of nodes in *V*. This leaves us very little interface, if
-any, to implement.
+where *V* is a set of nodes, and *E* is a set of edges, each edge *e*=(*u*,
+*v*) consisting of a pair of nodes in *V*. This leaves us very little
+interface, if any, to implement.
 
 There exist, of course, numerous representations of a graph, with various
 time/space tradeoffs. Conversion between these, and the implementation of the
