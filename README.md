@@ -4,6 +4,30 @@ UltraGraph is a Python 3 library motivated by the principle of designing
 an algorithm and data structure suite for graphs that adheres closely to
 the mathematical treatment of these objects. 
 
+## Structure
+
+This project is broken up into two components: algorithms and data structures.
+Put briefly, it takes the conventional view of data structures a static
+collections of data associated with a common set of operations. However, the
+scope of that set of operations is severely circumscribed here. For example, in
+the case of a standard, undirected graph, we specify a graph *G*=(*V*, *E*),
+where *V* is a set of nodes, and *E* is a set of edges, each edge e=(u, v)
+consisting of a pair of nodes in *V*. This leaves us very little interface, if
+any, to implement.
+
+There exist, of course, numerous representations of a graph, with various
+time/space tradeoffs. Conversion between these, and the implementation of the
+most basic functions, are provided in the data structures folder. Yet, our goal
+really should be to move away from the consideration of such low-level details
+as representation in the first place. These are implementation concerns, and
+best abstracted away as much as possible. The *end-user* should be thinking of
+graphs in terms of mathematical definition like the one given above, not in
+terms of its representation in memory.
+
+In contrast, the bulk of this project will be implemented under the
+'algorithms'. This is where one will find all of the interesting functions
+defined over graphs.
+
 ## FAQ
 
 ### Why don't I just use NetworkX?
