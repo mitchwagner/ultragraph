@@ -56,8 +56,8 @@ def dijkstra(V, E, c, s):
 
 This library is designed to provide precisely that alternative
 conceptualization. Python is a natural langauge for this, as first-class
-functions allow us to pass, for example, *c*, as an argument into the
-interface defined by this more formal specification.
+functions allow us to pass, for example, the function *c* as an argument into
+the interface defined by this more formal specification.
 
 In summary, UltraGraph is not so much an exercise in avoiding class-based
 design, nor recreating the wheel for the sake of it, as in promoting a
