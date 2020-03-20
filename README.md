@@ -4,6 +4,8 @@ UltraGraph is a Python 3 library motivated by the principle of designing
 an algorithm and data structure suite for graphs that adheres closely to
 the mathematical treatment of these objects. 
 
+UltraGraph has no external dependencies!
+
 ## Structure
 
 This project is broken up into two components: algorithms and data structures.
