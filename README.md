@@ -87,4 +87,8 @@ the interface defined by this more formal specification.
 
 In summary, UltraGraph is not so much an exercise in avoiding class-based
 design, nor recreating the wheel for the sake of it, as in promoting a
-mathematical mindset with respect to programming itself.
+mathematical mindset with respect to programming itself. Though an effort
+will be made to make the library as efficient as possible, efficiency is
+of subordinate concern to expressivity- one can always optimize as necessary,
+but it can only be done after one has accurately captured their thoughts
+or designs to begin with.
